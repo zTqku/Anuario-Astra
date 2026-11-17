@@ -17,7 +17,7 @@ const ALUMNOS=[
    galeria:["images/alumnos/-1.jpg"]},
   {nombre:"Aracelly Manzur",curso:"Third year",foto:"images/alumnos/manzur.jpg",frase:"",descripcion:"Descripción de ejemplo.",
    galeria:["images/alumnos/-1.jpg"]},
-  {nombre:"Willian Leive",curso:"Third year",foto:"images/alumnos/leiva.jpg",frase:"",descripcion:"Descripción de ejemplo.",
+  {nombre:"Willian Leiva",curso:"Third year",foto:"images/alumnos/leiva.jpg",frase:"",descripcion:"Descripción de ejemplo.",
    galeria:["images/alumnos/-1.jpg"]},
   {nombre:"Maite Villalba",curso:"Third year",foto:"images/alumnos/maite.jpg",frase:"",descripcion:"Descripción de ejemplo.",
    galeria:["images/alumnos/-1.jpg"]},
