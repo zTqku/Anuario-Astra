@@ -33,11 +33,13 @@ const ALUMNOS=[
    galeria:["images/alumnos/-1.jpg"]},
   {nombre:"Micaia Benitez",curso:"Third year",foto:"images/alumnos/micaia.jpg",frase:"",descripcion:"Descripción de ejemplo.",
    galeria:["images/alumnos/-1.jpg"]},
-  {nombre:"Talita Orlando",curso:"Third year",foto:"images/alumnos/talita.jpg",frase:"",descripcion:"Descripción de ejemplo.",
+  {nombre:"Talita Orlando",curso:"Third year",foto:"images/alumnos/Talita.jpg",frase:"",descripcion:"Descripción de ejemplo.",
    galeria:["images/alumnos/-1.jpg"]}, 
   {nombre:"Luana Martinez",curso:"Third year",foto:"images/alumnos/luana.jpg",frase:"",descripcion:"Descripción de ejemplo.",
    galeria:["images/alumnos/-1.jpg"]}, 
   {nombre:"Yamila Britez",curso:"Third year",foto:"images/alumnos/yamila.jpg",frase:"",descripcion:"Descripción de ejemplo.",
+   galeria:["images/alumnos/-1.jpg"]}, 
+  {nombre:"Alex Ramirez",curso:"Third year",foto:"images/alumnos/alex.jpg",frase:"",descripcion:"Descripción de ejemplo.",
    galeria:["images/alumnos/-1.jpg"]}, 
 
 ];
