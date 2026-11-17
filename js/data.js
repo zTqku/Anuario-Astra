@@ -3,15 +3,46 @@
    Si "foto" está vacía o la imagen no existe, se muestran las iniciales. */
 
 // ALUMNOS: copia y pega un bloque { ... } por cada alumno.
-const _al=n=>({nombre:`Alumno ${n} (ejemplo)`,curso:"Curso (ejemplo)",foto:"",frase:".",descripcion:"Descripción de ejemplo.",galeria:[]});
+const _al=n=>({nombre:`Alumno ${n} (ejemplo)`,curso:"Curso (ejemplo)",foto:"",frase:".",descripcion:"Descripción de ejemplo.",
+               galeria:["images/alumnos/-----1.jpg"]});
 const ALUMNOS=[
   {nombre:"Alejandra Talavera",curso:"Third year",foto:"images/alumnos/alejandra.jpg",frase:"Ya que tengo abierta la cosa veo si le pongo.",descripcion:"Me cambiaste porque traigo bicicleta.",
-   galeria:["images/alumnos/alejandra-1.jpg", "images/alumnos/alejandra-2.jpg", "images/alumnos/alejandra-3.jpg", "images/alumnos/alejandra-4.jpg", "images/alumnos/alejandra-5.jpg", "images/alumnos/alejandra-6.jpg", "images/alumnos/alejandra-7.jpg", "images/alumnos/alejandra-8.jpg", "images/alumnos/alejandra-9.jpg", "images/alumnos/alejandra-10.jpg"]}, // galería personal: opcional
-  {nombre:"Willian Varela",curso:"Third year",foto:"images/alumnos/willian.jpg",frase:" .",descripcion:" .",
-   galeria:[]
-];
+   galeria:["images/alumnos/alejandra-1.jpg", "images/alumnos/alejandra-2.jpg", "images/alumnos/alejandra-3.jpg", "images/alumnos/alejandra-4.jpg", "images/alumnos/alejandra-5.jpg", "images/alumnos/alejandra-6.jpg", "images/alumnos/alejandra-7.jpg", "images/alumnos/alejandra-8.jpg", "images/alumnos/alejandra-9.jpg", "images/alumnos/alejandra-10.jpg"]},
+  {nombre:"Willian Varela",curso:"Third year",foto:"images/alumnos/willian.jpg",frase:"No hagas hoy lo que puedes hacer mañana.",descripcion:"Me gusta la informatica y pasar el tiempo sin hacer nada.",
+   galeria:["images/alumnos/willian-1.jpg", "images/alumnos/willian-2.jpg", "images/alumnos/willian-3.jpg", "images/alumnos/willian-4.jpg", "images/alumnos/willian-5.jpg", "images/alumnos/willian-6.jpg"]},
+  {nombre:"Alanis Maidana",curso:"Third year",foto:"images/alumnos/alanis.jpg",frase:".",descripcion:"Descripción de ejemplo.",
+   galeria:["images/alumnos/-1.jpg"]},
+  {nombre:"Fernando Lopez",curso:"Third year",foto:"images/alumnos/fernando.jpg",frase:".",descripcion:"Descripción de ejemplo.",
+   galeria:["images/alumnos/-1.jpg"]},
+  {nombre:"Dylan Gimenez" ,curso:"Third year",foto:"images/alumnos/dylan.jpg",frase:".",descripcion:"Descripción de ejemplo.",
+   galeria:["images/alumnos/-1.jpg"]},
+  {nombre:"Aracelly Manzur,curso:"Third year",foto:"images/alumnos/manzur.jpg",frase:".",descripcion:"Descripción de ejemplo.",
+   galeria:["images/alumnos/-1.jpg"]},
+  {nombre:"Willian Leive",curso:"Third year",foto:"images/alumnos/leiva.jpg",frase:".",descripcion:"Descripción de ejemplo.",
+   galeria:["images/alumnos/-1.jpg"]},
+  {nombre:"Maite Villalba",curso:"Third year",foto:"images/alumnos/maite.jpg",frase:".",descripcion:"Descripción de ejemplo.",
+   galeria:["images/alumnos/-1.jpg"]},
+  {nombre:"Katherin Vasquez",curso:"Third year",foto:"images/alumnos/katherin.jpg",frase:".",descripcion:"Descripción de ejemplo.",
+   galeria:["images/alumnos/-1.jpg"]},
+  {nombre:"Cristian Quintana",curso:"Third year",foto:"images/alumnos/cristian.jpg",frase:".",descripcion:"Descripción de ejemplo.",
+   galeria:["images/alumnos/-1.jpg"]},
+  {nombre:"Rodrigo Acosta",curso:"Third year",foto:"images/alumnos/rodrigo.jpg",frase:".",descripcion:"Descripción de ejemplo.",
+   galeria:["images/alumnos/-1.jpg"]},
+  {nombre:"Sofia Velazco",curso:"Third year",foto:"images/alumnos/sofia.jpg",frase:".",descripcion:"Descripción de ejemplo.",
+   galeria:["images/alumnos/-1.jpg"]},
+  {nombre:"Ruth Roa",curso:"Third year",foto:"images/alumnos/ruth.jpg",frase:".",descripcion:"Descripción de ejemplo.",
+   galeria:["images/alumnos/-1.jpg"]},
+  {nombre:"Micaia Benitez",curso:"Third year",foto:"images/alumnos/micaia.jpg",frase:".",descripcion:"Descripción de ejemplo.",
+   galeria:["images/alumnos/-1.jpg"]},
+  {nombre:"Talita Orlando",curso:"Third year",foto:"images/alumnos/talita.jpg",frase:".",descripcion:"Descripción de ejemplo.",
+   galeria:["images/alumnos/-1.jpg"]}, 
+  {nombre:"Luana Martinez",curso:"Third year",foto:"images/alumnos/luana.jpg",frase:".",descripcion:"Descripción de ejemplo.",
+   galeria:["images/alumnos/-1.jpg"]}, 
+  {nombre:"Yamila Britez",curso:"Third year",foto:"images/alumnos/yamila.jpg",frase:".",descripcion:"Descripción de ejemplo.",
+   galeria:["images/alumnos/-1.jpg"]}, 
 
-// DIRECCIÓN: 1 director + 1 directora
+];
+   // DIRECCIÓN: 1 director + 1 directora
 const DIRECTIVOS=[
   {nombre:"Director (ejemplo)",cargo:"Director",foto:"images/profesores/director.jpg",mensaje:"Mensaje de ejemplo.",descripcion:""},
   {nombre:"Directora (ejemplo)",cargo:"Directora",foto:"images/profesores/directora.jpg",mensaje:"Mensaje de ejemplo.",descripcion:""}
