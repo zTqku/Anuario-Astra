@@ -3,8 +3,7 @@
    Si "foto" está vacía o la imagen no existe, se muestran las iniciales. */
 
 // ALUMNOS: copia y pega un bloque { ... } por cada alumno.
-const _al=n=>({nombre:`Alumno ${n} (ejemplo)`,curso:"Curso (ejemplo)",foto:"",frase:".",descripcion:"Descripción de ejemplo.",
-               galeria:["images/alumnos/-----1.jpg"]});
+const _al=n=>({nombre:`Alumno ${n} (ejemplo)`,curso:"Curso (ejemplo)",foto:"",frase:".",descripcion:"Descripción de ejemplo.",galeria:["images/alumnos/-----1.jpg"]});
 const ALUMNOS=[
   {nombre:"Alejandra Talavera",curso:"Third year",foto:"images/alumnos/alejandra.jpg",frase:"Ya que tengo abierta la cosa veo si le pongo.",descripcion:"Me cambiaste porque traigo bicicleta.",
    galeria:["images/alumnos/alejandra-1.jpg", "images/alumnos/alejandra-2.jpg", "images/alumnos/alejandra-3.jpg", "images/alumnos/alejandra-4.jpg", "images/alumnos/alejandra-5.jpg", "images/alumnos/alejandra-6.jpg", "images/alumnos/alejandra-7.jpg", "images/alumnos/alejandra-8.jpg", "images/alumnos/alejandra-9.jpg", "images/alumnos/alejandra-10.jpg"]},
