@@ -5,7 +5,7 @@ const ph=(src,txt,cls="")=>`<div class="ph ${cls}"><span>${esc(txt)}</span>${src
 
 const PAGES=[["index.html","Inicio"],["index.html#promocion","Nuestra Promoción"],["alumnos.html","Alumnos"],["profesores.html","Profesores"],["momentos.html","Momentos"],["eventos.html","Eventos"],["galeria.html","Galería"],["mensajes.html","Mensajes"],["recuerdos.html","Recuerdos"]];
 const here=location.pathname.split("/").pop()||"index.html";
-document.body.insertAdjacentHTML("afterbegin",`<header class="nav"><a class="brand" href="index.html"><img src="images/astra026.jpg" alt="ASTRA 026"><span>ASTRA <i>026</i></span></a><a class="crest" href="index.html"><img src="images/colegio.webp" alt="Colegio Santa Clara"></a><button class="burger" aria-label="Menú" aria-expanded="false"><span></span><span></span><span></span></button><nav class="menu">${PAGES.map(([h,t])=>`<a href="${h}"${h===here?' class="on"':""}>${t}</a>`).join("")}</nav></header>`);
+document.body.insertAdjacentHTML("afterbegin",`<header class="nav"><a class="brand" href="index.html"><img src="images/astra026.jpg" alt="ASTRA 026"><span>ASTRA <i>026</i></span></a><button class="burger" aria-label="Menú" aria-expanded="false"><span></span><span></span><span></span></button><nav class="menu">${PAGES.map(([h,t])=>`<a href="${h}"${h===here?' class="on"':""}>${t}</a>`).join("")}</nav></header>`);
 document.body.insertAdjacentHTML("beforeend",`<footer class="foot"><a class="crest" href="index.html"><img src="images/colegio.webp" alt="Colegio Santa Clara"></a><b>ANUARIO 2026 · ASTRA 026</b></footer>`);
 const burger=$(".burger"),menu=$(".menu");
 burger.onclick=()=>burger.setAttribute("aria-expanded",menu.classList.toggle("open"));
