@@ -10,7 +10,7 @@ img{max-width:100%}
 .brand img{width:42px;height:42px;border-radius:50%;object-fit:cover;box-shadow:0 0 14px #2f6bffaa}
 .brand i{font-style:normal;color:var(--sky2)}
 .crest{backgroundnone;border-radius:10px;overflow:hidden;aspect-ratio:3/2;width:76px;margin-left:auto;display:block}
-.crest img{filter:drop-shadow(0 0 12px #2f6bff);box-shadow:0 0 0 3px #ffffff33,0 0 40px #2f6bffbb;width:100%;height:100%;object-fit:contain;display:block}
+.crest img{filter:drop-shadow(0 0 12px #2f6bff);width:100%;height:100%;object-fit:contain;display:block}
 .burger{margin-left:auto;width:46px;height:46px;border:0;border-radius:14px;background:#ffffff14;display:grid;place-content:center;gap:5px;cursor:pointer}
 .burger span{display:block;width:22px;height:3px;border-radius:3px;background:#fff;transition:.25s}
 .burger[aria-expanded=true] span:nth-child(1){transform:translateY(8px) rotate(45deg)}
