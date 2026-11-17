@@ -5,8 +5,10 @@
 // ALUMNOS: copia y pega un bloque { ... } por cada alumno.
 const _al=n=>({nombre:`Alumno ${n} (ejemplo)`,curso:"Curso (ejemplo)",foto:"",frase:".",descripcion:"Descripción de ejemplo.",galeria:[]});
 const ALUMNOS=[
-  {nombre:"Alejandra Talavera",curso:"Third year",foto:"images/alumnos/alejandra.jpg",frase:"Me cambiaste porque traigo bicicleta.",descripcion:"Ya que tengo abierta la cosa veo si le pongo.",
+  {nombre:"Alejandra Talavera",curso:"Third year",foto:"images/alumnos/alejandra.jpg",frase:"Ya que tengo abierta la cosa veo si le pongo.",descripcion:"Me cambiaste porque traigo bicicleta.",
    galeria:["images/alumnos/alejandra-1.jpg", "images/alumnos/alejandra-2.jpg", "images/alumnos/alejandra-3.jpg", "images/alumnos/alejandra-4.jpg", "images/alumnos/alejandra-5.jpg", "images/alumnos/alejandra-6.jpg", "images/alumnos/alejandra-7.jpg", "images/alumnos/alejandra-8.jpg", "images/alumnos/alejandra-9.jpg", "images/alumnos/alejandra-10.jpg"]}, // galería personal: opcional
+  {nombre:"Willian Varela",curso:"Third year",foto:"images/alumnos/willian.jpg",frase:" .",descripcion:" .",
+   galeria:[]
 ];
 
 // DIRECCIÓN: 1 director + 1 directora
