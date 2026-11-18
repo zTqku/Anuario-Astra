@@ -10,7 +10,7 @@ const ALUMNOS=[
   {nombre:"Willian Varela",curso:"Third year",foto:"images/alumnos/willian.jpg",frase:"No hagas hoy lo que puedes hacer mañana.",descripcion:"Me gusta la informatica y pasar el tiempo sin hacer nada.",
    galeria:["images/alumnos/willian-1.jpg", "images/alumnos/willian-2.jpg", "images/alumnos/willian-3.jpg", "images/alumnos/willian-4.jpg", "images/alumnos/willian-5.jpg", "images/alumnos/willian-6.jpg"]},
   {nombre:"Alanis Maidana",curso:"Third year",foto:"images/alumnos/alanis.jpg",frase:"",descripcion:"Descripción de ejemplo.",
-   galeria:["images/alumnos/-1.jpg"]},
+   galeria:["images/alumnos/alanis-1.jpg", "images/alumnos/alanis-2.jpg", "images/alumnos/alanis-3.jpg", "images/alumnos/alanis-4.jpg", "images/alumnos/alanis-5.jpg", "images/alumnos/alanis-6.jpg", "images/alumnos/alanis-7.jpg"]},
   {nombre:"Fernando Lopez",curso:"Third year",foto:"images/alumnos/fernando.jpg",frase:"",descripcion:"Descripción de ejemplo.",
    galeria:["images/alumnos/-1.jpg"]},
   {nombre:"Dylan Gimenez",curso:"Third year",foto:"images/alumnos/dylan.jpg",frase:"",descripcion:"Descripción de ejemplo.",
