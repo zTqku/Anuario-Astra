@@ -49,8 +49,20 @@ const DIRECTIVOS=[
   {nombre:"Directora (ejemplo)",cargo:"Directora",foto:"images/profesores/directora.jpg",mensaje:"Mensaje de ejemplo.",descripcion:""}
 ];
 
-// PROFESORES: 10
-const PROFESORES=Array.from({length:10},(_,i)=>({nombre:`Profesor ${i+1} (ejemplo)`,materia:"Materia (ejemplo)",foto:"",mensaje:"Mensaje de ejemplo.",descripcion:""}));
+// PROFESORES: 
+  const PROFESORES=[
+  {nombre:"Teacher Cecilia",materia:"Ingles",foto:"images/profesores/profcecilia.jpg",mensaje:"Su mensaje.",descripcion:""},
+  {nombre:"Teacher Sergio",materia:"Fisica",foto:"images/profesores/sergio.jpg",mensaje:"Su mensaje.",descripcion:""},
+  {nombre:"Teacher Luz",materia:"Quimica",foto:"images/profesores/profluz.jpg",mensaje:"Su mensaje.",descripcion:""},
+  {nombre:"Teacher Nelida",materia:"",foto:"images/profesores/profnelida.jpg",mensaje:"Su mensaje.",descripcion:""},
+  {nombre:"Teacher Oscar",materia:"",foto:"images/profesores/profoscar.jpg",mensaje:"Su mensaje.",descripcion:""},
+  {nombre:"Teacher Amancio",materia:"",foto:"images/profesores/profamancio.jpg",mensaje:"Su mensaje.",descripcion:""},
+  {nombre:"Teacher Sofia",materia:"",foto:"images/profesores/profsofia.jpg",mensaje:"Su mensaje.",descripcion:""},
+  {nombre:"Teacher Natalia",materia:"",foto:"images/profesores/profnatalia.jpg",mensaje:"Su mensaje.",descripcion:""},
+  {nombre:"Teacher Victor",materia:"",foto:"images/profesores/profvictor.jpg",mensaje:"Su mensaje.",descripcion:""},
+  {nombre:"Teacher Nicolasa",materia:"",foto:"images/profesores/profnico.jpg",mensaje:"Su mensaje.",descripcion:""}, 
+     
+];
 
 // MOMENTOS (línea de tiempo)
 const MOMENTOS=[
@@ -65,7 +77,7 @@ const MOMENTOS=[
 const EVENTOS=[1,2,3].map(n=>({nombre:`Evento ${n} (ejemplo)`,fecha:"Fecha (ejemplo)",foto:`images/eventos/evento${n}.jpg`,descripcion:"Descripción de ejemplo.",fotos:[`images/eventos/evento${n}-1.jpg`,`images/eventos/evento${n}-2.jpg`]}));
 
 // GALERÍA
-const GALERIA=Array.from({length:18},(_,i)=>({src:`images/galeria/foto${i+1}.jpg`,titulo:`Foto de ejemplo ${i+1}`}));
+const GALERIA=Array.from({length:18},(_,i)=>({src:`images/galeria/foto${i+1}.jpg`,titulo:`Photos from the course${i+1}`}));
 
 // MENSAJES
 const MENSAJES=[
