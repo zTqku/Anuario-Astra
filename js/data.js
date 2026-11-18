@@ -5,7 +5,7 @@
 // ALUMNOS: copia y pega un bloque { ... } por cada alumno.
 const _al=n=>({nombre:`Alumno ${n} (ejemplo)`,curso:"Curso (ejemplo)",foto:"",frase:".",descripcion:"Descripción de ejemplo.",galeria:["images/alumnos/-----1.jpg"]});
 const ALUMNOS=[
-  {nombre:"Alejandra Talavera",curso:"Third year",foto:"images/alumnos/alejandra.jpg",frase:"Ya que tengo abierta la cosa veo si le pongo.",descripcion:"Me cambiaste porque traigo bicicleta.",
+  {nombre:"Alejandra Talavera",curso:"Third year",foto:"images/alumnos/alejandra.jpg",frase:"I want to be forever young.",descripcion:"Me cambiaste porque traigo bicicleta.",
    galeria:["images/alumnos/alejandra-1.jpg", "images/alumnos/alejandra-2.jpg", "images/alumnos/alejandra-3.jpg", "images/alumnos/alejandra-4.jpg", "images/alumnos/alejandra-5.jpg", "images/alumnos/alejandra-6.jpg", "images/alumnos/alejandra-7.jpg", "images/alumnos/alejandra-8.jpg", "images/alumnos/alejandra-9.jpg", "images/alumnos/alejandra-10.jpg"]},
   {nombre:"Willian Varela",curso:"Third year",foto:"images/alumnos/willian.jpg",frase:"No hagas hoy lo que puedes hacer mañana.",descripcion:"Me gusta la informatica y pasar el tiempo sin hacer nada.",
    galeria:["images/alumnos/willian-1.jpg", "images/alumnos/willian-2.jpg", "images/alumnos/willian-3.jpg", "images/alumnos/willian-4.jpg", "images/alumnos/willian-5.jpg", "images/alumnos/willian-6.jpg"]},
@@ -14,9 +14,9 @@ const ALUMNOS=[
   {nombre:"Fernando Lopez",curso:"Third year",foto:"images/alumnos/fernando.jpg",frase:"",descripcion:"Descripción de ejemplo.",
    galeria:["images/alumnos/-1.jpg"]},
   {nombre:"Dylan Gimenez",curso:"Third year",foto:"images/alumnos/dylan.jpg",frase:"",descripcion:"Descripción de ejemplo.",
-   galeria:[, "images/alumnos/manzur-1.jpg", "images/alumnos/manzur-2.jpg", "images/alumnos/manzur-3.jpg", "images/alumnos/manzur-4.jpg", "images/alumnos/manzur-5.jpg", "images/alumnos/manzur-6.jpg", "images/alumnos/manzur-7.jpg", "images/alumnos/manzur-8.jpg", "images/alumnos/manzur-9.jpg"]},
+   galeria:["images/alumnos/dylan-1.jpg"]},
   {nombre:"Aracelly Manzur",curso:"Third year",foto:"images/alumnos/manzur.jpg",frase:"",descripcion:"Descripción de ejemplo.",
-   galeria:["images/alumnos/-1.jpg"]},
+   galeria:["images/alumnos/manzur-1.jpg", "images/alumnos/manzur-2.jpg", "images/alumnos/manzur-3.jpg", "images/alumnos/manzur-4.jpg", "images/alumnos/manzur-5.jpg", "images/alumnos/manzur-6.jpg", "images/alumnos/manzur-7.jpg", "images/alumnos/manzur-8.jpg", "images/alumnos/manzur-9.jpg"]},
   {nombre:"Willian Leiva",curso:"Third year",foto:"images/alumnos/leiva.jpg",frase:"",descripcion:"Descripción de ejemplo.",
    galeria:["images/alumnos/-1.jpg"]},
   {nombre:"Maite Villalba",curso:"Third year",foto:"images/alumnos/maite.jpg",frase:"",descripcion:"Descripción de ejemplo.",
