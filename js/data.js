@@ -13,7 +13,7 @@ const ALUMNOS=[
    galeria:["images/alumnos/alanis-1.jpg", "images/alumnos/alanis-2.jpg", "images/alumnos/alanis-3.jpg", "images/alumnos/alanis-4.jpg", "images/alumnos/alanis-5.jpg", "images/alumnos/alanis-6.jpg", "images/alumnos/alanis-7.jpg"]},
   {nombre:"Fernando Lopez",curso:"Third year",foto:"images/alumnos/fernando.jpg",frase:"",descripcion:"Descripción de ejemplo.",
    galeria:["images/alumnos/-1.jpg"]},
-  {nombre:"Dylan Gimenez",curso:"Third year",foto:"images/alumnos/dylan.jpg",frase:"",descripcion:"Descripción de ejemplo.",
+  {nombre:"Dylan Gimenez",curso:"Third year",foto:"images/alumnos/dylan.jpg",frase:"Real Hasta La Muerte Hijo Puta",descripcion:"Descripción de ejemplo.",
    galeria:["images/alumnos/dylan-1.jpg"]},
   {nombre:"Aracelly Manzur",curso:"Third year",foto:"images/alumnos/manzur.jpg",frase:"",descripcion:"Descripción de ejemplo.",
    galeria:["images/alumnos/manzur-1.jpg", "images/alumnos/manzur-2.jpg", "images/alumnos/manzur-3.jpg", "images/alumnos/manzur-4.jpg", "images/alumnos/manzur-5.jpg", "images/alumnos/manzur-6.jpg", "images/alumnos/manzur-7.jpg", "images/alumnos/manzur-8.jpg", "images/alumnos/manzur-9.jpg"]},
