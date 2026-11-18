@@ -3,10 +3,10 @@ const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&g
 const ini=n=>String(n).split(/\s+/).filter(Boolean).slice(0,2).map(w=>w[0]).join("").toUpperCase();
 const ph=(src,txt,cls="")=>`<div class="ph ${cls}"><span>${esc(txt)}</span>${src?`<img src="${esc(src)}" alt="${esc(txt)}" loading="lazy" onerror="this.remove()">`:""}</div>`;
 
-const PAGES=[["index.html","Inicio"],["index.html#promocion","Nuestra Promoción"],["alumnos.html","Alumnos"],["profesores.html","Profesores"],["momentos.html","Momentos"],["eventos.html","Eventos"],["galeria.html","Galería"],["mensajes.html","Mensajes"],["recuerdos.html","Recuerdos"]];
+const PAGES=[["index.html","Start"],["index.html#promocion","Our Promotion"],["alumnos.html","Students"],["profesores.html","Teachers"],["momentos.html","Moments"],["eventos.html","Events"],["galeria.html","Gallery"],["mensajes.html","Messages"],["recuerdos.html","Remembers"]];
 const here=location.pathname.split("/").pop()||"index.html";
 document.body.insertAdjacentHTML("afterbegin",`<header class="nav"><a class="brand" href="index.html"><img src="images/astra026.jpg" alt="ASTRA 026"><span>ASTRA <i>026</i></span></a><button class="burger" aria-label="Menú" aria-expanded="false"><span></span><span></span><span></span></button><nav class="menu">${PAGES.map(([h,t])=>`<a href="${h}"${h===here?' class="on"':""}>${t}</a>`).join("")}</nav></header>`);
-document.body.insertAdjacentHTML("beforeend",`<footer class="foot"><a class="crest" href="index.html"><img src="images/colegio.webp" alt="Colegio Santa Clara"></a><b>ANUARIO 2026 · ASTRA 026</b></footer>`);
+document.body.insertAdjacentHTML("beforeend",`<footer class="foot"><a class="crest" href="index.html"><img src="images/colegio.webp" alt="Colegio Santa Clara"></a><b>Yearbook 2026 · ASTRA 026</b></footer>`);
 const burger=$(".burger"),menu=$(".menu");
 burger.onclick=()=>burger.setAttribute("aria-expanded",menu.classList.toggle("open"));
 menu.onclick=e=>{if(e.target.closest("a")){menu.classList.remove("open");burger.setAttribute("aria-expanded","false")}};
