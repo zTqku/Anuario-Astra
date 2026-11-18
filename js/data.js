@@ -5,7 +5,7 @@
 // ALUMNOS: copia y pega un bloque { ... } por cada alumno.
 const _al=n=>({nombre:`Alumno ${n} (ejemplo)`,curso:"Curso (ejemplo)",foto:"",frase:".",descripcion:"Descripción de ejemplo.",galeria:["images/alumnos/-----1.jpg"]});
 const ALUMNOS=[
-  {nombre:"Alejandra Talavera",curso:"Third year",foto:"images/alumnos/alejandra.jpg",frase:"I want to be forever young.",descripcion:"Me cambiaste porque traigo bicicleta.",
+  {nombre:"Alejandra Talavera",curso:"Third year",foto:"images/alumnos/alejandra.jpg",frase:"I want to be forever young.",descripcion:"Una rosa entre tantas espinas.",
    galeria:["images/alumnos/alejandra-1.jpg", "images/alumnos/alejandra-2.jpg", "images/alumnos/alejandra-3.jpg", "images/alumnos/alejandra-4.jpg", "images/alumnos/alejandra-5.jpg", "images/alumnos/alejandra-6.jpg", "images/alumnos/alejandra-7.jpg", "images/alumnos/alejandra-8.jpg", "images/alumnos/alejandra-9.jpg", "images/alumnos/alejandra-10.jpg"]},
   {nombre:"Willian Varela",curso:"Third year",foto:"images/alumnos/willian.jpg",frase:"No hagas hoy lo que puedes hacer mañana.",descripcion:"Me gusta la informatica y pasar el tiempo sin hacer nada.",
    galeria:["images/alumnos/willian-1.jpg", "images/alumnos/willian-2.jpg", "images/alumnos/willian-3.jpg", "images/alumnos/willian-4.jpg", "images/alumnos/willian-5.jpg", "images/alumnos/willian-6.jpg"]},
