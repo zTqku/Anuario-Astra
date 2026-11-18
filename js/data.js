@@ -14,7 +14,7 @@ const ALUMNOS=[
   {nombre:"Fernando Lopez",curso:"Third year",foto:"images/alumnos/fernando.jpg",frase:"",descripcion:"Descripción de ejemplo.",
    galeria:["images/alumnos/-1.jpg"]},
   {nombre:"Dylan Gimenez",curso:"Third year",foto:"images/alumnos/dylan.jpg",frase:"",descripcion:"Descripción de ejemplo.",
-   galeria:["images/alumnos/-1.jpg"]},
+   galeria:[, "images/alumnos/manzur-1.jpg", "images/alumnos/manzur-2.jpg", "images/alumnos/manzur-3.jpg", "images/alumnos/manzur-4.jpg", "images/alumnos/manzur-5.jpg", "images/alumnos/manzur-6.jpg", "images/alumnos/manzur-7.jpg", "images/alumnos/manzur-8.jpg", "images/alumnos/manzur-9.jpg"]},
   {nombre:"Aracelly Manzur",curso:"Third year",foto:"images/alumnos/manzur.jpg",frase:"",descripcion:"Descripción de ejemplo.",
    galeria:["images/alumnos/-1.jpg"]},
   {nombre:"Willian Leiva",curso:"Third year",foto:"images/alumnos/leiva.jpg",frase:"",descripcion:"Descripción de ejemplo.",
@@ -34,9 +34,9 @@ const ALUMNOS=[
   {nombre:"Micaia Benitez",curso:"Third year",foto:"images/alumnos/micaia.jpg",frase:"",descripcion:"Descripción de ejemplo.",
    galeria:["images/alumnos/-1.jpg"]},
   {nombre:"Talita Orlando",curso:"Third year",foto:"images/alumnos/Talita.jpg",frase:"I am proof that there can always be a new beginning",descripcion:"Desordenada, impulsiva, dormilona y otaku.",
-   galeria:["images/alumnos/talita-1.jpg", "images/alumnos/talita-2.jpg", "images/alumnos/talita-3.jpg", "images/alumnos/talita-4.jpg", "images/alumnos/talita-5.jpg", "images/alumnos/talita-6.jpg", "images/alumnos/talita-7.jpg", "images/alumnos/talita-8.jpg"]}, 
+   galeria:["images/alumnos/talita-1.jpg", "images/alumnos/talita-2.jpg", "images/alumnos/talita-3.jpg", "images/alumnos/talita-4.jpg", "images/alumnos/talita-5.jpg", "images/alumnos/talita-6.jpg", "images/alumnos/talita-7.jpg", "images/alumnos/talita-8.jpg", "images/alumnos/talita-9.jpg", "images/alumnos/talita-10.jpg"]}, 
   {nombre:"Luana Martinez",curso:"Third year",foto:"images/alumnos/luana.jpg",frase:"",descripcion:"Descripción de ejemplo.",
-   galeria:["images/alumnos/-1.jpg"]}, 
+   galeria:["images/alumnos/luana-1.jpg", "images/alumnos/luana-2.jpg", "images/alumnos/luana-3.jpg", "images/alumnos/luana-4.jpg", "images/alumnos/luana-5.jpg", "images/alumnos/luana-6.jpg", "images/alumnos/luana-7.jpg", "images/alumnos/luana-8.jpg", "images/alumnos/luana-9.jpg", "images/alumnos/luana-10.jpg"]}, 
   {nombre:"Yamila Britez",curso:"Third year",foto:"images/alumnos/yamila.jpg",frase:"",descripcion:"Descripción de ejemplo.",
    galeria:["images/alumnos/-1.jpg"]}, 
   {nombre:"Alex Ramirez",curso:"Third year",foto:"images/alumnos/alex.jpg",frase:"",descripcion:"Descripción de ejemplo.",
@@ -45,8 +45,8 @@ const ALUMNOS=[
 ];
    // DIRECCIÓN: 1 director + 1 directora
 const DIRECTIVOS=[
-  {nombre:"Director (ejemplo)",cargo:"Director",foto:"images/profesores/director.jpg",mensaje:"Mensaje de ejemplo.",descripcion:""},
-  {nombre:"Directora (ejemplo)",cargo:"Directora",foto:"images/profesores/directora.jpg",mensaje:"Mensaje de ejemplo.",descripcion:""}
+  {nombre:"Director Wilfrido",cargo:"Director",foto:"images/profesores/director.jpg",mensaje:"Mensaje de ejemplo.",descripcion:""},
+  {nombre:"Directora Rosana",cargo:"Directora",foto:"images/profesores/directora.jpg",mensaje:"Mensaje de ejemplo.",descripcion:""}
 ];
 
 // PROFESORES: 
