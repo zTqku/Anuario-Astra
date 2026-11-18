@@ -90,5 +90,3 @@ img{max-width:100%}
 @keyframes zoom{from{opacity:0;transform:scale(.92)}}
 @keyframes fl{50%{transform:translateY(-8px)}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}.rv{opacity:1}}
-.grid>*{min-width:0}
-.pc{overflow-wrap:anywhere}
