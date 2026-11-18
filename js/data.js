@@ -34,7 +34,7 @@ const ALUMNOS=[
   {nombre:"Micaia Benitez",curso:"Third year",foto:"images/alumnos/micaia.jpg",frase:"",descripcion:"Descripción de ejemplo.",
    galeria:["images/alumnos/-1.jpg"]},
   {nombre:"Talita Orlando",curso:"Third year",foto:"images/alumnos/Talita.jpg",frase:"I am proof that there can always be a new beginning",descripcion:"Desordenada, impulsiva, dormilona y otaku.",
-   galeria:["images/alumnos/talita-1.jpg", "images/alumnos/talita-1.jpg", "images/alumnos/talita-2.jpg", "images/alumnos/talita-3.jpg", "images/alumnos/talita-4.jpg", "images/alumnos/talita-5.jpg", "images/alumnos/talita-6.jpg", "images/alumnos/talita-7.jpg", "images/alumnos/talita-8.jpg"]}, 
+   galeria:["images/alumnos/talita-1.jpg", "images/alumnos/talita-2.jpg", "images/alumnos/talita-3.jpg", "images/alumnos/talita-4.jpg", "images/alumnos/talita-5.jpg", "images/alumnos/talita-6.jpg", "images/alumnos/talita-7.jpg", "images/alumnos/talita-8.jpg"]}, 
   {nombre:"Luana Martinez",curso:"Third year",foto:"images/alumnos/luana.jpg",frase:"",descripcion:"Descripción de ejemplo.",
    galeria:["images/alumnos/-1.jpg"]}, 
   {nombre:"Yamila Britez",curso:"Third year",foto:"images/alumnos/yamila.jpg",frase:"",descripcion:"Descripción de ejemplo.",
