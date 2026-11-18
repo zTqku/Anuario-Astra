@@ -21,7 +21,7 @@ const ALUMNOS=[
    galeria:["images/alumnos/-1.jpg"]},
   {nombre:"Maite Villalba",curso:"Third year",foto:"images/alumnos/maite.jpg",frase:"",descripcion:"Descripción de ejemplo.",
    galeria:["images/alumnos/-1.jpg"]},
-  {nombre:"Katherin Vasquez",curso:"Third year",foto:"images/alumnos/katherin.jpg",frase:"La disciplina me busca, pero yo me hago la desentendida",descripcion:"Bajita,morena,rubia teñida,impulsiva,peresosa,olvidadiza,amorosa,sencible,llorona,despistada,ordenada,miedosa y humilde.",
+  {nombre:"Katherin Vasquez",curso:"Third year",foto:"images/alumnos/katherin.jpg",frase:"La disciplina me busca, pero yo me hago la desentendida",descripcion:"Bajita, morena, rubia teñida, impulsiva, peresosa, olvidadiza, amorosa, sencible, llorona, despistada, ordenada, miedosa y humilde.",
    galeria:["images/alumnos/katherin-1.jpg", "images/alumnos/katherin-2.jpg", "images/alumnos/katherin-3.jpg", "images/alumnos/katherin-4.jpg", "images/alumnos/katherin-5.jpg", "images/alumnos/katherin-6.jpg", "images/alumnos/katherin-7.jpg"]},
   {nombre:"Cristian Quintana",curso:"Third year",foto:"images/alumnos/cristian.jpg",frase:"",descripcion:"Descripción de ejemplo.",
    galeria:["images/alumnos/-1.jpg"]},
