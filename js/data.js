@@ -77,7 +77,7 @@ const MOMENTOS=[
 const EVENTOS=[1,2,3].map(n=>({nombre:`Evento ${n} (ejemplo)`,fecha:"Fecha (ejemplo)",foto:`images/eventos/evento${n}.jpg`,descripcion:"Descripción de ejemplo.",fotos:[`images/eventos/evento${n}-1.jpg`,`images/eventos/evento${n}-2.jpg`]}));
 
 // GALERÍA
-const GALERIA=Array.from({length:18},(_,i)=>({src:`images/galeria/foto${i+1}.jpg`,titulo:`Photos from the course${i+1}`}));
+const GALERIA=Array.from({length:18},(_,i)=>({src:`images/galeria/grupal${i+1}.jpg`,titulo:`Photos from the course${i+1}`}));
 
 // MENSAJES
 const MENSAJES=[
